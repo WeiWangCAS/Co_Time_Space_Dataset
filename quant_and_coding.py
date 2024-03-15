@@ -10,8 +10,8 @@ import pickle
 import codecs
 import math
 
-encode_app = 'TAppEncoderStatic'
-encoder_cfg = 'encoder_randomaccess_main_rext.cfg'
+encode_app = 'Encoder_app'
+encoder_cfg = 'Encoder_cfg'
 quant_feat_dir = './intermediate_data/co_time_space_data/'
 
 if not os.path.exists(quant_feat_dir):
